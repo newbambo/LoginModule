@@ -2,7 +2,7 @@ name: login_package
 description: A new Flutter package.
 version: 0.0.1
 author: visager
-homepage:
+homepage: https://github.com/newbambo/LoginModule.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
