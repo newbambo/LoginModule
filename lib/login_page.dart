@@ -6,8 +6,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:keyboard_avoider/keyboard_avoider.dart';
-import 'package:login_package/ViewModel/login_provider.dart';
-import 'package:login_package/foreget_word_page.dart';
+import 'package:login_package_2020/ViewModel/login_provider.dart';
+import 'package:login_package_2020/foreget_word_page.dart';
 import 'package:provider/provider.dart';
 
 typedef successHandler  = void Function (bool res) ;
@@ -51,7 +51,8 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               children: [
                 // SpaceItem(200),
-                Image.asset('packages/login_package/images/login_placehloder.png',height: 150,),
+                Image.asset('/images/login_placehloder.png',package: 'login_package',height: 150,),
+                // Image.asset('packages/login_package',height: 150,),
                 LoginInputFiled('请输入账户', false, onUsernameChanged),
                 SpaceItem(20),
                 LoginInputFiled('请输入密码' , true ,onPasswordChanged),
